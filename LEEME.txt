@@ -15,3 +15,5 @@ POR DEFECTO PUEDES USAR:
 * Si creas un usuario nuevo debes Asignar un Usuario, Clave, y dar todos los privilegios, y asignarlo a la base de datos correspondiente al proyecto. *
 * Recomendado dejar usuario indicado en la instrucción. El usuario por defecto de WAMP, XAMPP.
 
+VERSION MYSQL: 10.4.28-MariaDB
+PHP: 8.2.4
