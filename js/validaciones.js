@@ -124,8 +124,6 @@ $(document).ready(function () {
         // Obtener el RUT ingresado
         var rutVal = $('#rut').val().trim();
 
-        // Validar el formato del RUT aquí (puedes usar la función validarRut)
-
         // Si todas las validaciones son exitosas, enviar los datos mediante AJAX
         if (isValid) {
             $.ajax({
