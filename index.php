@@ -76,7 +76,7 @@
             </div>
         </div>
 
-        <button type="submit" class="submit-btn">Enviar</button>
+        <button type="submit" class="submit-btn">Votar</button>
     </div>
 </body>
 </html>
