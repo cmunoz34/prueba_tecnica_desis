@@ -18,7 +18,7 @@ function validarRut(rut) {
     const dvCalculado = mod === 1 ? "K" : mod === 0 ? "0" : (11 - mod).toString();
 
     return dvCalculado === digitoVerificador;
-}
+    }
 
      // Función para validar el formato de correo electrónico 
     function validarEmail(email) {
@@ -71,8 +71,7 @@ $(document).ready(function () {
             $('#alias').removeClass('error');
         }
 
-
-      // Validar el campo de Región
+        // Validar el campo de Región
         var regionVal = $('#region').val();
         if (regionVal === '' || regionVal === '0') {
             isValid = false;
@@ -81,8 +80,7 @@ $(document).ready(function () {
             $('#region').removeClass('error');
         }
 
-
-      // Validar el campo de Comuna
+        // Validar el campo de Comuna
         var comunaVal = $('#comuna').val();
         if (comunaVal === '' || comunaVal === '0') {
             isValid = false;
@@ -90,7 +88,6 @@ $(document).ready(function () {
         } else {
             $('#comuna').removeClass('error');
         }
-
 
         // Validar el campo de Candidato
         var candidatoVal = $('#candidato').val();
@@ -100,7 +97,6 @@ $(document).ready(function () {
         } else {
             $('#candidato').removeClass('error');
         }
-
 
        // Validar Checked y guardar
         var selectedFuentes = [];
@@ -116,7 +112,6 @@ $(document).ready(function () {
             isValid = true;
         } 
 
-
         $(document).ready(function () {
             // Validar el formulario al enviarlo
             $('.submit-btn').click(function (event) {   
@@ -125,8 +120,6 @@ $(document).ready(function () {
                 }
             });
          });
-
-
 
         // Obtener el RUT ingresado
         var rutVal = $('#rut').val().trim();
@@ -175,7 +168,6 @@ $(document).ready(function () {
                 }
             });
         }
-
     });
 });
 
