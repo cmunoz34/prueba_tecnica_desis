@@ -58,7 +58,7 @@
             margin-right: 5px;
         }
 
-        /*Estlos boton submit*/
+        /*Estilos boton submit*/
         .submit-btn {
             padding: 10px;
             background-color: #007bff;
@@ -67,15 +67,17 @@
             border-radius: 4px;
             cursor: pointer;
         }
+        /*Estilos boton submit*/        
            .logo {
             text-align: center;
             margin-bottom: 20px;
         }
 
+        /*Ancho máximo del logo 200px*/
         .logo img {
             max-width: 200px; 
         }
-
+        /*Borde que indica error en elementos de formulario*/
         .error{
             border:3px solid red !important;
         }
