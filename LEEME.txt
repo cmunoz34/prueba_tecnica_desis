@@ -1,0 +1,17 @@
+INSTALACIÓN DEL PROYECTO:
+1. Descargar servidor para interpretar PHP y MySql: WAMP,XAMPP(para Windows) XAMPP o MAMP(en caso de Mac OS) WAMP -> https://www.wampserver.com/es/ 
+2. Descargar e Instalar el Programa en tu sistema operativo (ejemplo basado en windows).
+3. Abrir el programa Instalado y dejar servicios activos en la barra de tareas. En caso de WAMP, queda un ícono verde que indica servicios activos. 
+4. Migrar la carpeta del proyecto en WAMP dentro de WWW, o en XAMPP por ejemplo en htdocs/proyecto.
+5. Entrar a http://localhost/phpmyadmin/ e Importar archivo .sql que está en la carpeta SQL.
+6. Verificar en la carpeta 'includes' el archivo de conexión a la base de datos.
+POR DEFECTO PUEDES USAR:
+- Usuario:root
+- Password:(en blanco)
+- host:localhost
+- nombredb:test (o cambiar por nombre de la base de datos que crees)
+6. Entra a http://localhost/prueba_tecnica/ para ejecutar el proyecto
+
+* Si creas un usuario nuevo debes Asignar un Usuario, Clave, y dar todos los privilegios, y asignarlo a la base de datos correspondiente al proyecto. *
+* Recomendado dejar usuario indicado en la instrucción. El usuario por defecto de WAMP, XAMPP.
+
