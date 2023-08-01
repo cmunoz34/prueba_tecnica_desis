@@ -1,15 +1,10 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 
 // Verificar que la petición sea de tipo POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     // Si la petición no es POST, mostrar una pantalla en blanco y terminar la ejecución del script
     die();
 }
-
 
 // Establecer la conexión a la base de datos
 require 'includes/conexion.php';
@@ -30,7 +25,6 @@ $vot_medio = json_encode($vot_medio);
 // Crear la consulta SQL
 $sql = "INSERT INTO votacion (vot_nombre, vot_alias, vot_rut, vot_email, vot_region, vot_comuna, vot_candidato, vot_medio, fk_candidato_id)
         VALUES ('$vot_nombre', '$vot_alias', '$vot_rut', '$vot_email', '$vot_region', '$vot_comuna', '$vot_candidato', '$vot_medio', '$vot_candidato')";
-
 
 // Ejecutar la consulta
 if (mysqli_query($conexion, $sql)) {
